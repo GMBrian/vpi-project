@@ -1,0 +1,22 @@
+.banner {
+  padding: 10px 0;
+  box-shadow: 0 13px 23px rgba(0, 0, 0, 0.23);
+  border-bottom: 5px solid #81b793;
+}
+
+.page-header {
+  position:relative;
+  width:600px; height:150px;
+  margin:0 -150px;
+  border-radius:50%;
+  overflow:hidden;
+
+  &:after{
+    content:'';
+    position:absolute;
+    top:-175px; left:150px;
+    height:500px; width:300px;
+    border-radius:inherit;
+    background:#000;
+  }
+}
