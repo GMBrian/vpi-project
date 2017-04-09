@@ -13,7 +13,7 @@
   </div>
 </header>
 
-<div class="banner-header" style="background-image: url('<?= get_stylesheet_directory_uri() . '/assets/images/zen.jpg'; ?>')">
+<div class="banner-header">
   <h1><?= Titles\title(); ?></h1>
 </div>
 
