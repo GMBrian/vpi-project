@@ -4,19 +4,55 @@
   border-bottom: 5px solid #81b793;
 }
 
-.page-header {
-  position:relative;
-  width:600px; height:150px;
-  margin:0 -150px;
-  border-radius:50%;
-  overflow:hidden;
+.banner-header {
+  position: relative;
+  margin: 0;
+  height: 180px;
+  overflow: hidden;
 
-  &:after{
-    content:'';
-    position:absolute;
-    top:-175px; left:150px;
-    height:500px; width:300px;
-    border-radius:inherit;
-    background:#000;
+  width: 120%;
+  left: -10%;
+  right: -10%;
+
+  margin-bottom: 40px;
+
+  //border-radius: 50%;
+  border-style: solid;
+  border-color: #ffa61a;
+  border-width: 0 20px 10px;
+
+  -webkit-border-bottom-right-radius: 50%;
+  -webkit-border-bottom-left-radius: 50%;
+  -moz-border-radius-bottomright: 50%;
+  -moz-border-radius-bottomleft: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+
+  background: no-repeat center;
+  background-size: cover;
+
+  h1 {
+    text-align: center;
+    color: #ffa61a;
+
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: 50px;
   }
+
+  //&:after {
+  //  content: '';
+  //  position: absolute;
+  //  height: 100%;
+  //  width: 120%;
+  //  left: -10%;
+  //  right: -10%;
+  //  top: 0;
+  //  border-radius: 50%;
+  //  border-style: solid;
+  //  border-color: #ffa61a;
+  //  border-width: 0 20px 10px;
+  //}
 }
