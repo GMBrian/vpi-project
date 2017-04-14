@@ -1,0 +1,36 @@
+.content-info {
+  margin-top: 30px;
+  border-top: 6px solid #147b6a;
+  padding-bottom: 30px;
+  padding-top: 45px;
+  background-color: #81b793;
+
+  .widget {
+    color: #fff;
+
+    h3 {
+      font-family: "Work Sans", sans-serif;
+      font-weight: 800;
+      color: #fff;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+
+    ul.menu {
+      list-style: none;
+      padding: 0;
+
+      li {
+        padding: 0;
+
+        a {
+          font-family: "Alegreya Sans",sans-serif;
+          color: #fff;
+          font-weight: 300;
+          line-height: 1.5;
+          font-size: 21px;
+        }
+      }
+    }
+  }
+}

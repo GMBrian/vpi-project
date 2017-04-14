@@ -4,19 +4,19 @@
 
 			<div class="col-md-4 col-sm-12">
 
-				<?php dynamic_sidebar( 'sidebar-footer' ); ?>
+				<?php dynamic_sidebar( 'sidebar-footer-1' ); ?>
 
 			</div>
 
 			<div class="col-md-4 col-sm-12">
 
-				<?php dynamic_sidebar( 'sidebar-footer' ); ?>
+				<?php dynamic_sidebar( 'sidebar-footer-2' ); ?>
 
 			</div>
 
 			<div class="col-md-4 col-sm-12">
 
-				<?php dynamic_sidebar( 'sidebar-footer' ); ?>
+				<?php dynamic_sidebar( 'sidebar-footer-3' ); ?>
 
 			</div>
 			

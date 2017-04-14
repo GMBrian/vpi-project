@@ -74,4 +74,16 @@
   // Load Events
   $(document).ready(UTIL.loadEvents);
 
+  $( document ).ready(function() {
+
+    setTimeout(function(){
+      var $container = $('.lesson-container');
+      $container.isotope({
+        itemSelector: '.lesson-block-container',
+        layoutMode: 'masonry',
+        //layoutMode: 'fitRows'
+      })
+    }, 400);
+  });
+
 })(jQuery); // Fully reference jQuery after this point.

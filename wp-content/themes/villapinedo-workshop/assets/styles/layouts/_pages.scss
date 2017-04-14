@@ -1,0 +1,92 @@
+body.single-namaste_lesson {
+  background-color: rgba(244, 244, 244, 1);
+}
+
+.lesson-block-container {
+  margin-bottom: 30px;
+
+  .lesson-block {
+    padding: 20px;
+    background: #fff;
+    border-bottom: 4px solid #e8e8e8;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+    //margin-bottom: 30px;
+    //margin: 10px;
+    position: relative;
+    text-align: left;
+  }
+}
+
+.lesson-assignments {
+  list-style: none;
+  padding: 0;
+
+  li {
+    padding: 0;
+  }
+}
+
+.btn {
+  background: #ffa61a;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px #a96e1f;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 10px 8px;
+  padding: 15px 30px 13px !important;
+  text-transform: uppercase;
+  vertical-align: top;
+  -webkit-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.page-links {
+  .course-link {
+    a {
+      float: left;
+      background: #ffa61a;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 4px #a96e1f;
+      color: #fff;
+      display: inline-block;
+      font-size: 15px !important;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin: 10px 8px;
+      padding: 15px 30px 13px !important;
+      text-transform: uppercase;
+      vertical-align: top;
+      -webkit-transition: all 0.3s ease-out;
+      -ms-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out;
+    }
+  }
+  .next-link {
+    a {
+      float: right;
+      background: #ffa61a;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 4px #a96e1f;
+      color: #fff;
+      display: inline-block;
+      font-size: 15px !important;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin: 10px 8px;
+      padding: 15px 30px 13px !important;
+      text-transform: uppercase;
+      vertical-align: top;
+      -webkit-transition: all 0.3s ease-out;
+      -ms-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out;
+    }
+  }
+}

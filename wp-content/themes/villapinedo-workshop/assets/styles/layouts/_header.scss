@@ -2,6 +2,7 @@
   padding: 10px 0;
   box-shadow: 0 13px 23px rgba(0, 0, 0, 0.23);
   border-bottom: 5px solid #81b793;
+  background-color: #ffffff;
 
   .brand {
     float: left;
@@ -11,6 +12,10 @@
     float: right;
 
     ul {
+
+      li.current-menu-item a {
+        color: $brand-primary;
+      }
 
       li {
         float: left;
@@ -23,6 +28,7 @@
           color: $text-secundary;
           font-weight: 800;
 
+          &:active,
           &:hover {
             color: $brand-primary;
             background-color: transparent;
